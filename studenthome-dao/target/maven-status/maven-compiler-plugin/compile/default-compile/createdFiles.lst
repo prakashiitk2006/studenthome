@@ -1,8 +1,0 @@
-org\opola\apps\studenthome\dao\GenericDao.class
-org\opola\apps\studenthome\dao\support\DaoSupport.class
-org\opola\apps\studenthome\dao\RowMapper.class
-org\opola\apps\studenthome\dao\jdbc\SpringJdbcTemplateSupport$SequenceProvider.class
-org\opola\apps\studenthome\dao\StudentDao.class
-org\opola\apps\studenthome\dao\Row.class
-org\opola\apps\studenthome\dao\jdbc\SpringJdbcTemplateSupport.class
-org\opola\apps\studenthome\dao\implementation\StudentDaoImpl.class
