@@ -1,0 +1,1148 @@
+2016-11-16 05:40:46,300 DEBUG [main] SpringJUnit4ClassRunner:78 SpringJUnit4ClassRunner constructor called with [class org.opola.apps.studenthome.dao.tests.StudentDaoTests].
+2016-11-16 05:40:46,309 TRACE [main] TestContext:94 Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(locations=[classpath:dao-config.xml], loader=interface org.springframework.test.context.ContextLoader, inheritLocations=true)] for class [class org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:40:46,323 TRACE [main] TestContext:151 Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(locations=[classpath:dao-config.xml], loader=interface org.springframework.test.context.ContextLoader, inheritLocations=true)] for declaring class [class org.opola.apps.studenthome.dao.tests.TestBase]
+2016-11-16 05:40:46,329 INFO  [main] TestContextManager:167 @TestExecutionListeners is not present for class [class org.opola.apps.studenthome.dao.tests.StudentDaoTests]: using defaults.
+2016-11-16 05:40:46,342 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,344 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5975d6ab]
+2016-11-16 05:40:46,345 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.support.DirtiesContextTestExecutionListener@4760a26f]
+2016-11-16 05:40:46,345 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@19484a05]
+2016-11-16 05:40:46,356 DEBUG [main] SpringJUnit4ClassRunner:139 Invoking test method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()]
+2016-11-16 05:40:46,356 TRACE [main] TestContextManager:249 prepareTestInstance(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab]
+2016-11-16 05:40:46,359 DEBUG [main] DependencyInjectionTestExecutionListener:73 Performing dependency injection for test context [[TestContext@2dafae45 testClass = StudentDaoTests, locations = array<String>['classpath:dao-config.xml'], testInstance = org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab, testMethod = [null], testException = [null]]].
+2016-11-16 05:40:46,360 DEBUG [main] AbstractGenericContextLoader:75 Loading ApplicationContext for locations [classpath:dao-config.xml].
+2016-11-16 05:40:46,390 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,391 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,392 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,392 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,392 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,393 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,393 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,394 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,396 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,411 INFO  [main] XmlBeanDefinitionReader:323 Loading XML bean definitions from class path resource [dao-config.xml]
+2016-11-16 05:40:46,417 DEBUG [main] DefaultDocumentLoader:72 Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-11-16 05:40:46,439 TRACE [main] PluggableSchemaResolver:103 Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd]
+2016-11-16 05:40:46,439 DEBUG [main] PluggableSchemaResolver:125 Loading schema mappings from [META-INF/spring.schemas]
+2016-11-16 05:40:46,442 DEBUG [main] PluggableSchemaResolver:131 Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2016-11-16 05:40:46,444 DEBUG [main] PluggableSchemaResolver:114 Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2016-11-16 05:40:46,495 TRACE [main] PluggableSchemaResolver:103 Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-2.5.xsd]
+2016-11-16 05:40:46,497 DEBUG [main] PluggableSchemaResolver:114 Found XML schema [http://www.springframework.org/schema/tx/spring-tx-2.5.xsd] in classpath: org/springframework/transaction/config/spring-tx-2.5.xsd
+2016-11-16 05:40:46,516 DEBUG [main] DefaultBeanDefinitionDocumentReader:86 Loading bean definitions
+2016-11-16 05:40:46,536 DEBUG [main] BeanDefinitionParserDelegate:410 Neither XML 'id' nor 'name' specified - using generated bean name [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3]
+2016-11-16 05:40:46,539 DEBUG [main] DefaultNamespaceHandlerResolver:153 Loaded mappings [{http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}]
+2016-11-16 05:40:46,574 DEBUG [main] XmlBeanDefinitionReader:185 Loaded 8 bean definitions from location pattern [classpath:dao-config.xml]
+2016-11-16 05:40:46,583 INFO  [main] GenericApplicationContext:411 Refreshing org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:40:46 IST 2016]; root of context hierarchy
+2016-11-16 05:40:46,584 INFO  [main] GenericApplicationContext:426 Bean factory for application context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21
+2016-11-16 05:40:46,584 DEBUG [main] GenericApplicationContext:430 11 beans defined in org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:40:46 IST 2016]; root of context hierarchy
+2016-11-16 05:40:46,605 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'propertyConfigurer'
+2016-11-16 05:40:46,607 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'propertyConfigurer'
+2016-11-16 05:40:46,627 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+2016-11-16 05:40:46,633 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-11-16 05:40:46,640 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-11-16 05:40:46,640 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:40:46,641 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanName' of type [java.lang.String]
+2016-11-16 05:40:46,642 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,642 TRACE [main] CachedIntrospectionResults:243 Found bean property 'fileEncoding' of type [java.lang.String]
+2016-11-16 05:40:46,643 TRACE [main] CachedIntrospectionResults:243 Found bean property 'ignoreResourceNotFound' of type [boolean]
+2016-11-16 05:40:46,643 TRACE [main] CachedIntrospectionResults:243 Found bean property 'ignoreUnresolvablePlaceholders' of type [boolean]
+2016-11-16 05:40:46,644 TRACE [main] CachedIntrospectionResults:243 Found bean property 'localOverride' of type [boolean]
+2016-11-16 05:40:46,644 TRACE [main] CachedIntrospectionResults:243 Found bean property 'location' of type [org.springframework.core.io.Resource]
+2016-11-16 05:40:46,645 TRACE [main] CachedIntrospectionResults:243 Found bean property 'locations' of type [[Lorg.springframework.core.io.Resource;]
+2016-11-16 05:40:46,645 TRACE [main] CachedIntrospectionResults:243 Found bean property 'nullValue' of type [java.lang.String]
+2016-11-16 05:40:46,646 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:40:46,646 TRACE [main] CachedIntrospectionResults:243 Found bean property 'placeholderPrefix' of type [java.lang.String]
+2016-11-16 05:40:46,647 TRACE [main] CachedIntrospectionResults:243 Found bean property 'placeholderSuffix' of type [java.lang.String]
+2016-11-16 05:40:46,647 TRACE [main] CachedIntrospectionResults:243 Found bean property 'properties' of type [java.util.Properties]
+2016-11-16 05:40:46,648 TRACE [main] CachedIntrospectionResults:243 Found bean property 'propertiesArray' of type [[Ljava.util.Properties;]
+2016-11-16 05:40:46,648 TRACE [main] CachedIntrospectionResults:243 Found bean property 'propertiesPersister' of type [org.springframework.util.PropertiesPersister]
+2016-11-16 05:40:46,648 TRACE [main] CachedIntrospectionResults:243 Found bean property 'searchSystemEnvironment' of type [boolean]
+2016-11-16 05:40:46,649 TRACE [main] CachedIntrospectionResults:243 Found bean property 'systemPropertiesMode' of type [int]
+2016-11-16 05:40:46,649 TRACE [main] CachedIntrospectionResults:243 Found bean property 'systemPropertiesModeName' of type [java.lang.String]
+2016-11-16 05:40:46,655 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'propertyConfigurer'
+2016-11-16 05:40:46,656 INFO  [main] PropertyPlaceholderConfigurer:178 Loading properties file from URL [file:/C:/Users/oola.ORADEV/workspace/eclipse/personalwork/studenthome-dao/target/classes/applicationDB.properties]
+2016-11-16 05:40:46,661 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.driver'
+2016-11-16 05:40:46,661 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.password'
+2016-11-16 05:40:46,662 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.host'
+2016-11-16 05:40:46,662 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.port'
+2016-11-16 05:40:46,662 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.sid'
+2016-11-16 05:40:46,663 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.username'
+2016-11-16 05:40:46,664 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.autocommit'
+2016-11-16 05:40:46,666 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:40:46,666 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:40:46,673 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:40:46,673 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]
+2016-11-16 05:40:46,680 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]
+2016-11-16 05:40:46,680 TRACE [main] CachedIntrospectionResults:243 Found bean property 'alwaysUseJndiLookup' of type [boolean]
+2016-11-16 05:40:46,681 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:40:46,681 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,682 TRACE [main] CachedIntrospectionResults:243 Found bean property 'destroyAnnotationType' of type [java.lang.Class]
+2016-11-16 05:40:46,682 TRACE [main] CachedIntrospectionResults:243 Found bean property 'fallbackToDefaultTypeMatch' of type [boolean]
+2016-11-16 05:40:46,683 TRACE [main] CachedIntrospectionResults:243 Found bean property 'initAnnotationType' of type [java.lang.Class]
+2016-11-16 05:40:46,683 TRACE [main] CachedIntrospectionResults:243 Found bean property 'jndiFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:40:46,684 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:40:46,684 TRACE [main] CachedIntrospectionResults:243 Found bean property 'resourceFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:40:46,685 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:40:46,686 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:40:46,686 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:40:46,689 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:40:46,690 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]
+2016-11-16 05:40:46,694 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]
+2016-11-16 05:40:46,694 TRACE [main] CachedIntrospectionResults:243 Found bean property 'autowiredAnnotationType' of type [java.lang.Class]
+2016-11-16 05:40:46,695 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:40:46,695 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,696 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:40:46,696 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredParameterName' of type [java.lang.String]
+2016-11-16 05:40:46,697 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredParameterValue' of type [boolean]
+2016-11-16 05:40:46,698 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:40:46,698 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:40:46,699 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:40:46,700 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:40:46,700 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]
+2016-11-16 05:40:46,705 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]
+2016-11-16 05:40:46,706 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,706 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:40:46,707 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredAnnotationType' of type [java.lang.Class]
+2016-11-16 05:40:46,708 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:40:46,708 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:40:46,709 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:40:46,715 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,729 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-11-16 05:40:46,730 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2016-11-16 05:40:46,735 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2016-11-16 05:40:46,736 TRACE [main] CachedIntrospectionResults:243 Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2016-11-16 05:40:46,736 TRACE [main] CachedIntrospectionResults:243 Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2016-11-16 05:40:46,737 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2016-11-16 05:40:46,737 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:40:46,738 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,738 TRACE [main] CachedIntrospectionResults:243 Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2016-11-16 05:40:46,739 TRACE [main] CachedIntrospectionResults:243 Found bean property 'exposeProxy' of type [boolean]
+2016-11-16 05:40:46,740 TRACE [main] CachedIntrospectionResults:243 Found bean property 'frozen' of type [boolean]
+2016-11-16 05:40:46,740 TRACE [main] CachedIntrospectionResults:243 Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2016-11-16 05:40:46,740 TRACE [main] CachedIntrospectionResults:243 Found bean property 'opaque' of type [boolean]
+2016-11-16 05:40:46,741 TRACE [main] CachedIntrospectionResults:243 Found bean property 'optimize' of type [boolean]
+2016-11-16 05:40:46,741 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:40:46,741 TRACE [main] CachedIntrospectionResults:243 Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2016-11-16 05:40:46,742 TRACE [main] CachedIntrospectionResults:243 Found bean property 'proxyTargetClass' of type [boolean]
+2016-11-16 05:40:46,743 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:40:46,745 DEBUG [main] GenericApplicationContext:648 Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@26659db7]
+2016-11-16 05:40:46,747 DEBUG [main] GenericApplicationContext:672 Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3d3cdaa]
+2016-11-16 05:40:46,749 INFO  [main] DefaultListableBeanFactory:414 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21: defining beans [propertyConfigurer,datasource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,studentDao,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor]; root of factory hierarchy
+2016-11-16 05:40:46,749 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'propertyConfigurer'
+2016-11-16 05:40:46,749 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'datasource'
+2016-11-16 05:40:46,750 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'datasource'
+2016-11-16 05:40:46,756 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'datasource' to allow for resolving potential circular references
+2016-11-16 05:40:46,756 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.apache.commons.dbcp.datasources.SharedPoolDataSource]
+2016-11-16 05:40:46,761 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.apache.commons.dbcp.datasources.SharedPoolDataSource]
+2016-11-16 05:40:46,761 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,761 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connection' of type [java.sql.Connection]
+2016-11-16 05:40:46,762 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connectionPoolDataSource' of type [javax.sql.ConnectionPoolDataSource]
+2016-11-16 05:40:46,762 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSourceName' of type [java.lang.String]
+2016-11-16 05:40:46,762 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultAutoCommit' of type [boolean]
+2016-11-16 05:40:46,762 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultReadOnly' of type [boolean]
+2016-11-16 05:40:46,763 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultTransactionIsolation' of type [int]
+2016-11-16 05:40:46,763 TRACE [main] CachedIntrospectionResults:243 Found bean property 'description' of type [java.lang.String]
+2016-11-16 05:40:46,763 TRACE [main] CachedIntrospectionResults:243 Found bean property 'logWriter' of type [java.io.PrintWriter]
+2016-11-16 05:40:46,764 TRACE [main] CachedIntrospectionResults:243 Found bean property 'loginTimeout' of type [int]
+2016-11-16 05:40:46,764 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxActive' of type [int]
+2016-11-16 05:40:46,764 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxIdle' of type [int]
+2016-11-16 05:40:46,764 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxWait' of type [int]
+2016-11-16 05:40:46,765 TRACE [main] CachedIntrospectionResults:243 Found bean property 'minEvictableIdleTimeMillis' of type [int]
+2016-11-16 05:40:46,765 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numActive' of type [int]
+2016-11-16 05:40:46,765 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numIdle' of type [int]
+2016-11-16 05:40:46,765 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numTestsPerEvictionRun' of type [int]
+2016-11-16 05:40:46,766 TRACE [main] CachedIntrospectionResults:243 Found bean property 'reference' of type [javax.naming.Reference]
+2016-11-16 05:40:46,766 TRACE [main] CachedIntrospectionResults:243 Found bean property 'rollbackAfterValidation' of type [boolean]
+2016-11-16 05:40:46,766 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testOnBorrow' of type [boolean]
+2016-11-16 05:40:46,766 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testOnReturn' of type [boolean]
+2016-11-16 05:40:46,767 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testWhileIdle' of type [boolean]
+2016-11-16 05:40:46,767 TRACE [main] CachedIntrospectionResults:243 Found bean property 'timeBetweenEvictionRunsMillis' of type [int]
+2016-11-16 05:40:46,767 TRACE [main] CachedIntrospectionResults:243 Found bean property 'validationQuery' of type [java.lang.String]
+2016-11-16 05:40:46,768 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3'
+2016-11-16 05:40:46,779 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS]
+2016-11-16 05:40:46,784 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS]
+2016-11-16 05:40:46,785 TRACE [main] CachedIntrospectionResults:243 Found bean property 'accessToUnderlyingConnectionAllowed' of type [boolean]
+2016-11-16 05:40:46,785 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,786 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connectionProperties' of type [java.util.Properties]
+2016-11-16 05:40:46,789 TRACE [main] CachedIntrospectionResults:243 Found bean property 'description' of type [java.lang.String]
+2016-11-16 05:40:46,789 TRACE [main] CachedIntrospectionResults:243 Found bean property 'driver' of type [java.lang.String]
+2016-11-16 05:40:46,790 TRACE [main] CachedIntrospectionResults:243 Found bean property 'logWriter' of type [java.io.PrintWriter]
+2016-11-16 05:40:46,790 TRACE [main] CachedIntrospectionResults:243 Found bean property 'loginTimeout' of type [int]
+2016-11-16 05:40:46,791 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxActive' of type [int]
+2016-11-16 05:40:46,791 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxIdle' of type [int]
+2016-11-16 05:40:46,791 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxPreparedStatements' of type [int]
+2016-11-16 05:40:46,792 TRACE [main] CachedIntrospectionResults:243 Found bean property 'minEvictableIdleTimeMillis' of type [int]
+2016-11-16 05:40:46,792 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numTestsPerEvictionRun' of type [int]
+2016-11-16 05:40:46,792 TRACE [main] CachedIntrospectionResults:243 Found bean property 'password' of type [java.lang.String]
+2016-11-16 05:40:46,793 TRACE [main] CachedIntrospectionResults:243 Found bean property 'poolPreparedStatements' of type [boolean]
+2016-11-16 05:40:46,793 TRACE [main] CachedIntrospectionResults:243 Found bean property 'pooledConnection' of type [javax.sql.PooledConnection]
+2016-11-16 05:40:46,793 TRACE [main] CachedIntrospectionResults:243 Found bean property 'reference' of type [javax.naming.Reference]
+2016-11-16 05:40:46,794 TRACE [main] CachedIntrospectionResults:243 Found bean property 'timeBetweenEvictionRunsMillis' of type [int]
+2016-11-16 05:40:46,794 TRACE [main] CachedIntrospectionResults:243 Found bean property 'url' of type [java.lang.String]
+2016-11-16 05:40:46,794 TRACE [main] CachedIntrospectionResults:243 Found bean property 'user' of type [java.lang.String]
+2016-11-16 05:40:46,796 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,796 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,797 TRACE [main] InfrastructureAdvisorAutoProxyCreator:400 Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:40:46,799 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+2016-11-16 05:40:46,799 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:40:46,803 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:40:46,803 TRACE [main] CachedIntrospectionResults:243 Found bean property 'advice' of type [org.aopalliance.aop.Advice]
+2016-11-16 05:40:46,804 TRACE [main] CachedIntrospectionResults:243 Found bean property 'adviceBeanName' of type [java.lang.String]
+2016-11-16 05:40:46,804 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:40:46,804 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,805 TRACE [main] CachedIntrospectionResults:243 Found bean property 'classFilter' of type [org.springframework.aop.ClassFilter]
+2016-11-16 05:40:46,806 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:40:46,806 TRACE [main] CachedIntrospectionResults:243 Found bean property 'perInstance' of type [boolean]
+2016-11-16 05:40:46,806 TRACE [main] CachedIntrospectionResults:243 Found bean property 'pointcut' of type [org.springframework.aop.Pointcut]
+2016-11-16 05:40:46,807 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+2016-11-16 05:40:46,809 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:40:46,810 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:40:46,810 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:46,811 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+2016-11-16 05:40:46,811 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+2016-11-16 05:40:46,814 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+2016-11-16 05:40:46,815 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,817 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:40:46,818 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,821 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3'
+2016-11-16 05:40:46,830 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@a00185]
+2016-11-16 05:40:46,831 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@8c3c315]
+2016-11-16 05:40:46,833 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@8c3c315]
+2016-11-16 05:40:46,834 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@8c3c315]
+2016-11-16 05:40:46,834 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@a00185]
+2016-11-16 05:40:46,835 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,840 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'datasource'
+2016-11-16 05:40:46,841 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'transactionManager'
+2016-11-16 05:40:46,841 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'transactionManager'
+2016-11-16 05:40:46,850 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2016-11-16 05:40:46,850 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+2016-11-16 05:40:46,856 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+2016-11-16 05:40:46,856 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,857 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:40:46,857 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultTimeout' of type [int]
+2016-11-16 05:40:46,857 TRACE [main] CachedIntrospectionResults:243 Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+2016-11-16 05:40:46,857 TRACE [main] CachedIntrospectionResults:243 Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+2016-11-16 05:40:46,858 TRACE [main] CachedIntrospectionResults:243 Found bean property 'nestedTransactionAllowed' of type [boolean]
+2016-11-16 05:40:46,858 TRACE [main] CachedIntrospectionResults:243 Found bean property 'resourceFactory' of type [java.lang.Object]
+2016-11-16 05:40:46,858 TRACE [main] CachedIntrospectionResults:243 Found bean property 'rollbackOnCommitFailure' of type [boolean]
+2016-11-16 05:40:46,858 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionSynchronization' of type [int]
+2016-11-16 05:40:46,859 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+2016-11-16 05:40:46,860 TRACE [main] CachedIntrospectionResults:243 Found bean property 'validateExistingTransaction' of type [boolean]
+2016-11-16 05:40:46,860 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'datasource'
+2016-11-16 05:40:46,862 DEBUG [main] DefaultListableBeanFactory:1367 Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2016-11-16 05:40:46,862 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,864 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'transactionManager'
+2016-11-16 05:40:46,864 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:40:46,864 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:40:46,865 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:40:46,865 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:40:46,865 TRACE [main] InfrastructureAdvisorAutoProxyCreator:400 Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:40:46,869 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+2016-11-16 05:40:46,870 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:40:46,873 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:40:46,873 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,873 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+2016-11-16 05:40:46,873 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSources' of type [[Lorg.springframework.transaction.interceptor.TransactionAttributeSource;]
+2016-11-16 05:40:46,874 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributes' of type [java.util.Properties]
+2016-11-16 05:40:46,874 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+2016-11-16 05:40:46,874 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'transactionManager'
+2016-11-16 05:40:46,874 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:40:46,875 DEBUG [main] DefaultListableBeanFactory:1367 Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:40:46,875 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:40:46,875 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,875 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'studentDao'
+2016-11-16 05:40:46,876 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'studentDao'
+2016-11-16 05:40:46,883 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport]
+2016-11-16 05:40:46,884 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport]
+2016-11-16 05:40:46,885 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,885 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:40:46,885 DEBUG [main] InjectionMetadata:76 Found injected method on class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]: AutowiredMethodElement for public void org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport.setDataSource(javax.sql.DataSource)
+2016-11-16 05:40:46,886 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'studentDao' to allow for resolving potential circular references
+2016-11-16 05:40:46,886 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]
+2016-11-16 05:40:46,889 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]
+2016-11-16 05:40:46,889 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,890 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:40:46,890 DEBUG [main] InjectionMetadata:115 Processing injected method of bean 'studentDao': AutowiredMethodElement for public void org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport.setDataSource(javax.sql.DataSource)
+2016-11-16 05:40:46,894 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'datasource'
+2016-11-16 05:40:46,895 DEBUG [main] AutowiredAnnotationBeanPostProcessor:365 Autowiring by type from bean name 'studentDao' to bean named 'datasource'
+2016-11-16 05:40:46,906 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,907 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'studentDao'
+2016-11-16 05:40:46,907 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:40:46,907 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:40:46,907 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:40:46,909 TRACE [main] GenericApplicationContext:272 Publishing event in context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:40:46 IST 2016]; root of context hierarchy]
+2016-11-16 05:40:46,910 DEBUG [main] InjectionMetadata:69 Found injected field on class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]: AutowiredFieldElement for private org.opola.apps.studenthome.dao.StudentDao org.opola.apps.studenthome.dao.tests.StudentDaoTests.studentDao
+2016-11-16 05:40:46,910 DEBUG [main] InjectionMetadata:103 Processing injected field of bean 'org.opola.apps.studenthome.dao.tests.StudentDaoTests': AutowiredFieldElement for private org.opola.apps.studenthome.dao.StudentDao org.opola.apps.studenthome.dao.tests.StudentDaoTests.studentDao
+2016-11-16 05:40:46,911 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'studentDao'
+2016-11-16 05:40:46,911 DEBUG [main] AutowiredAnnotationBeanPostProcessor:365 Autowiring by type from bean name 'org.opola.apps.studenthome.dao.tests.StudentDaoTests' to bean named 'studentDao'
+2016-11-16 05:40:46,911 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:40:46,913 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:40:46,914 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:46,915 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:40:46,919 TRACE [main] TestContextManager:286 beforeTestMethod(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab], method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()]
+2016-11-16 05:40:46,924 DEBUG [main] JdbcTemplate:436 Executing SQL query [select SH_STUDENT_ID_SEQ.nextval from dual]
+2016-11-16 05:40:46,931 DEBUG [main] DataSourceUtils:112 Fetching JDBC Connection from DataSource
+2016-11-16 05:40:47,160 DEBUG [main] DataSourceUtils:312 Returning JDBC Connection to DataSource
+2016-11-16 05:40:47,168 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,168 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,168 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,169 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,169 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,169 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,169 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,170 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,170 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:40:47,171 INFO  [main] XmlBeanDefinitionReader:323 Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2016-11-16 05:40:47,174 DEBUG [main] DefaultDocumentLoader:72 Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-11-16 05:40:47,175 TRACE [main] BeansDtdResolver:54 Trying to resolve XML entity with public ID [-//SPRING//DTD BEAN 2.0//EN] and system ID [http://www.springframework.org/dtd/spring-beans-2.0.dtd]
+2016-11-16 05:40:47,176 TRACE [main] BeansDtdResolver:64 Trying to locate [spring-beans-2.0.dtd] in Spring jar
+2016-11-16 05:40:47,176 DEBUG [main] BeansDtdResolver:72 Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2016-11-16 05:40:47,186 DEBUG [main] DefaultBeanDefinitionDocumentReader:86 Loading bean definitions
+2016-11-16 05:40:47,193 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'DB2'
+2016-11-16 05:40:47,193 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'DB2'
+2016-11-16 05:40:47,194 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2016-11-16 05:40:47,194 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.jdbc.support.SQLErrorCodes]
+2016-11-16 05:40:47,196 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.jdbc.support.SQLErrorCodes]
+2016-11-16 05:40:47,196 TRACE [main] CachedIntrospectionResults:243 Found bean property 'badSqlGrammarCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,197 TRACE [main] CachedIntrospectionResults:243 Found bean property 'cannotAcquireLockCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,197 TRACE [main] CachedIntrospectionResults:243 Found bean property 'cannotSerializeTransactionCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,197 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:40:47,197 TRACE [main] CachedIntrospectionResults:243 Found bean property 'customTranslations' of type [[Lorg.springframework.jdbc.support.CustomSQLErrorCodesTranslation;]
+2016-11-16 05:40:47,198 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataAccessResourceFailureCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,198 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataIntegrityViolationCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,198 TRACE [main] CachedIntrospectionResults:243 Found bean property 'databaseProductName' of type [java.lang.String]
+2016-11-16 05:40:47,198 TRACE [main] CachedIntrospectionResults:243 Found bean property 'databaseProductNames' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,199 TRACE [main] CachedIntrospectionResults:243 Found bean property 'deadlockLoserCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,199 TRACE [main] CachedIntrospectionResults:243 Found bean property 'invalidResultSetAccessCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,199 TRACE [main] CachedIntrospectionResults:243 Found bean property 'permissionDeniedCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,199 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transientDataAccessResourceCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:40:47,200 TRACE [main] CachedIntrospectionResults:243 Found bean property 'useSqlStateForTranslation' of type [boolean]
+2016-11-16 05:40:47,200 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7444f787]
+2016-11-16 05:40:47,201 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7444f787]
+2016-11-16 05:40:47,201 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7444f787]
+2016-11-16 05:40:47,201 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7444f787]
+2016-11-16 05:40:47,202 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7444f787]
+2016-11-16 05:40:47,202 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'DB2'
+2016-11-16 05:40:47,202 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Derby'
+2016-11-16 05:40:47,203 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Derby'
+2016-11-16 05:40:47,203 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2016-11-16 05:40:47,203 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@5bd6fbb3]
+2016-11-16 05:40:47,204 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:40:47,204 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:40:47,204 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:40:47,205 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:40:47,205 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:40:47,205 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Derby'
+2016-11-16 05:40:47,206 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'H2'
+2016-11-16 05:40:47,206 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'H2'
+2016-11-16 05:40:47,206 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'H2' to allow for resolving potential circular references
+2016-11-16 05:40:47,206 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4e2016b0]
+2016-11-16 05:40:47,207 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4e2016b0]
+2016-11-16 05:40:47,208 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4e2016b0]
+2016-11-16 05:40:47,208 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'H2'
+2016-11-16 05:40:47,208 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'HSQL'
+2016-11-16 05:40:47,208 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'HSQL'
+2016-11-16 05:40:47,212 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2016-11-16 05:40:47,213 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@359ecd80]
+2016-11-16 05:40:47,214 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@359ecd80]
+2016-11-16 05:40:47,214 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@359ecd80]
+2016-11-16 05:40:47,215 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'HSQL'
+2016-11-16 05:40:47,215 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Informix'
+2016-11-16 05:40:47,216 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Informix'
+2016-11-16 05:40:47,216 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2016-11-16 05:40:47,217 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4cc5aa00]
+2016-11-16 05:40:47,217 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4cc5aa00]
+2016-11-16 05:40:47,217 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Informix'
+2016-11-16 05:40:47,218 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'MS-SQL'
+2016-11-16 05:40:47,218 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'MS-SQL'
+2016-11-16 05:40:47,219 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2016-11-16 05:40:47,219 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:40:47,219 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:40:47,220 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:40:47,220 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:40:47,221 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:40:47,221 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'MS-SQL'
+2016-11-16 05:40:47,222 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'MySQL'
+2016-11-16 05:40:47,222 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'MySQL'
+2016-11-16 05:40:47,222 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2016-11-16 05:40:47,222 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:40:47,223 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:40:47,223 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:40:47,223 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:40:47,223 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:40:47,224 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'MySQL'
+2016-11-16 05:40:47,224 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Oracle'
+2016-11-16 05:40:47,224 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Oracle'
+2016-11-16 05:40:47,225 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2016-11-16 05:40:47,225 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:40:47,225 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:40:47,225 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:40:47,226 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:40:47,226 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:40:47,227 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:40:47,227 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:40:47,227 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Oracle'
+2016-11-16 05:40:47,228 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'PostgreSQL'
+2016-11-16 05:40:47,228 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'PostgreSQL'
+2016-11-16 05:40:47,228 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2016-11-16 05:40:47,229 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7bcd280b]
+2016-11-16 05:40:47,229 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:40:47,230 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:40:47,230 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:40:47,230 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:40:47,231 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:40:47,231 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:40:47,232 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'PostgreSQL'
+2016-11-16 05:40:47,232 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Sybase'
+2016-11-16 05:40:47,232 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Sybase'
+2016-11-16 05:40:47,232 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2016-11-16 05:40:47,233 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:40:47,233 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:40:47,233 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:40:47,234 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:40:47,234 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Sybase'
+2016-11-16 05:40:47,234 INFO  [main] SQLErrorCodesFactory:128 SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2016-11-16 05:40:47,235 DEBUG [main] SQLErrorCodesFactory:201 Looking up default SQLErrorCodes for DataSource [org.apache.commons.dbcp.datasources.SharedPoolDataSource@6536d9d8]
+2016-11-16 05:40:47,235 DEBUG [main] DataSourceUtils:112 Fetching JDBC Connection from DataSource
+2016-11-16 05:40:47,241 DEBUG [main] DataSourceUtils:312 Returning JDBC Connection to DataSource
+2016-11-16 05:40:47,242 DEBUG [main] SQLErrorCodesFactory:220 Database product name cached for DataSource [org.apache.commons.dbcp.datasources.SharedPoolDataSource@6536d9d8]: name is 'PostgreSQL'
+2016-11-16 05:40:47,242 DEBUG [main] SQLErrorCodesFactory:177 SQL error codes for 'PostgreSQL' found
+2016-11-16 05:40:47,242 DEBUG [main] SQLErrorCodeSQLExceptionTranslator:382 Translating SQLException with SQL state '42P01', error code '0', message [ERROR: relation "dual" does not exist
+  Position: 39]; SQL was [select SH_STUDENT_ID_SEQ.nextval from dual] for task [StatementCallback]
+2016-11-16 05:40:47,247 DEBUG [main] SpringMethodRoadie:256 Test method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()] threw exception: org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [select SH_STUDENT_ID_SEQ.nextval from dual]; nested exception is org.postgresql.util.PSQLException: ERROR: relation "dual" does not exist
+  Position: 39
+2016-11-16 05:40:47,248 TRACE [main] TestContextManager:330 afterTestMethod(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab], method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()], exception [org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [select SH_STUDENT_ID_SEQ.nextval from dual]; nested exception is org.postgresql.util.PSQLException: ERROR: relation "dual" does not exist
+  Position: 39]
+2016-11-16 05:40:47,249 DEBUG [main] DirtiesContextTestExecutionListener:60 After test method: context [[TestContext@2dafae45 testClass = StudentDaoTests, locations = array<String>['classpath:dao-config.xml'], testInstance = org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab, testMethod = testDao@StudentDaoTests, testException = org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [select SH_STUDENT_ID_SEQ.nextval from dual]; nested exception is org.postgresql.util.PSQLException: ERROR: relation "dual" does not exist
+  Position: 39]], dirtiesContext [false].
+2016-11-16 05:40:47,251 INFO  [Thread-0] GenericApplicationContext:815 Closing org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:40:46 IST 2016]; root of context hierarchy
+2016-11-16 05:40:47,251 TRACE [Thread-0] GenericApplicationContext:272 Publishing event in context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:40:46 IST 2016]; root of context hierarchy]
+2016-11-16 05:40:47,252 INFO  [Thread-0] DefaultListableBeanFactory:421 Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21: defining beans [propertyConfigurer,datasource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,studentDao,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor]; root of factory hierarchy
+2016-11-16 05:40:47,252 DEBUG [Thread-0] DefaultListableBeanFactory:476 Retrieved dependent beans for bean 'studentDao': [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:40:47,252 DEBUG [Thread-0] DefaultListableBeanFactory:476 Retrieved dependent beans for bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3': [datasource]
+2016-11-16 05:42:30,863 DEBUG [main] SpringJUnit4ClassRunner:78 SpringJUnit4ClassRunner constructor called with [class org.opola.apps.studenthome.dao.tests.StudentDaoTests].
+2016-11-16 05:42:30,872 TRACE [main] TestContext:94 Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(locations=[classpath:dao-config.xml], loader=interface org.springframework.test.context.ContextLoader, inheritLocations=true)] for class [class org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:30,890 TRACE [main] TestContext:151 Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(locations=[classpath:dao-config.xml], loader=interface org.springframework.test.context.ContextLoader, inheritLocations=true)] for declaring class [class org.opola.apps.studenthome.dao.tests.TestBase]
+2016-11-16 05:42:30,899 INFO  [main] TestContextManager:167 @TestExecutionListeners is not present for class [class org.opola.apps.studenthome.dao.tests.StudentDaoTests]: using defaults.
+2016-11-16 05:42:30,916 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,919 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5975d6ab]
+2016-11-16 05:42:30,919 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.support.DirtiesContextTestExecutionListener@4760a26f]
+2016-11-16 05:42:30,920 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@19484a05]
+2016-11-16 05:42:30,933 DEBUG [main] SpringJUnit4ClassRunner:139 Invoking test method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()]
+2016-11-16 05:42:30,933 TRACE [main] TestContextManager:249 prepareTestInstance(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab]
+2016-11-16 05:42:30,937 DEBUG [main] DependencyInjectionTestExecutionListener:73 Performing dependency injection for test context [[TestContext@2dafae45 testClass = StudentDaoTests, locations = array<String>['classpath:dao-config.xml'], testInstance = org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab, testMethod = [null], testException = [null]]].
+2016-11-16 05:42:30,938 DEBUG [main] AbstractGenericContextLoader:75 Loading ApplicationContext for locations [classpath:dao-config.xml].
+2016-11-16 05:42:30,969 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,970 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,970 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,971 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,972 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,972 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,973 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,976 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,977 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:30,992 INFO  [main] XmlBeanDefinitionReader:323 Loading XML bean definitions from class path resource [dao-config.xml]
+2016-11-16 05:42:30,999 DEBUG [main] DefaultDocumentLoader:72 Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-11-16 05:42:31,019 TRACE [main] PluggableSchemaResolver:103 Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd]
+2016-11-16 05:42:31,020 DEBUG [main] PluggableSchemaResolver:125 Loading schema mappings from [META-INF/spring.schemas]
+2016-11-16 05:42:31,023 DEBUG [main] PluggableSchemaResolver:131 Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2016-11-16 05:42:31,025 DEBUG [main] PluggableSchemaResolver:114 Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2016-11-16 05:42:31,064 TRACE [main] PluggableSchemaResolver:103 Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-2.5.xsd]
+2016-11-16 05:42:31,065 DEBUG [main] PluggableSchemaResolver:114 Found XML schema [http://www.springframework.org/schema/tx/spring-tx-2.5.xsd] in classpath: org/springframework/transaction/config/spring-tx-2.5.xsd
+2016-11-16 05:42:31,077 DEBUG [main] DefaultBeanDefinitionDocumentReader:86 Loading bean definitions
+2016-11-16 05:42:31,100 DEBUG [main] BeanDefinitionParserDelegate:410 Neither XML 'id' nor 'name' specified - using generated bean name [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3]
+2016-11-16 05:42:31,102 DEBUG [main] DefaultNamespaceHandlerResolver:153 Loaded mappings [{http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}]
+2016-11-16 05:42:31,130 DEBUG [main] XmlBeanDefinitionReader:185 Loaded 8 bean definitions from location pattern [classpath:dao-config.xml]
+2016-11-16 05:42:31,137 INFO  [main] GenericApplicationContext:411 Refreshing org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:31 IST 2016]; root of context hierarchy
+2016-11-16 05:42:31,137 INFO  [main] GenericApplicationContext:426 Bean factory for application context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21
+2016-11-16 05:42:31,137 DEBUG [main] GenericApplicationContext:430 11 beans defined in org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:31 IST 2016]; root of context hierarchy
+2016-11-16 05:42:31,155 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'propertyConfigurer'
+2016-11-16 05:42:31,155 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'propertyConfigurer'
+2016-11-16 05:42:31,172 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+2016-11-16 05:42:31,176 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-11-16 05:42:31,183 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-11-16 05:42:31,184 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:31,185 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanName' of type [java.lang.String]
+2016-11-16 05:42:31,186 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,187 TRACE [main] CachedIntrospectionResults:243 Found bean property 'fileEncoding' of type [java.lang.String]
+2016-11-16 05:42:31,188 TRACE [main] CachedIntrospectionResults:243 Found bean property 'ignoreResourceNotFound' of type [boolean]
+2016-11-16 05:42:31,189 TRACE [main] CachedIntrospectionResults:243 Found bean property 'ignoreUnresolvablePlaceholders' of type [boolean]
+2016-11-16 05:42:31,189 TRACE [main] CachedIntrospectionResults:243 Found bean property 'localOverride' of type [boolean]
+2016-11-16 05:42:31,190 TRACE [main] CachedIntrospectionResults:243 Found bean property 'location' of type [org.springframework.core.io.Resource]
+2016-11-16 05:42:31,190 TRACE [main] CachedIntrospectionResults:243 Found bean property 'locations' of type [[Lorg.springframework.core.io.Resource;]
+2016-11-16 05:42:31,190 TRACE [main] CachedIntrospectionResults:243 Found bean property 'nullValue' of type [java.lang.String]
+2016-11-16 05:42:31,191 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:31,191 TRACE [main] CachedIntrospectionResults:243 Found bean property 'placeholderPrefix' of type [java.lang.String]
+2016-11-16 05:42:31,192 TRACE [main] CachedIntrospectionResults:243 Found bean property 'placeholderSuffix' of type [java.lang.String]
+2016-11-16 05:42:31,192 TRACE [main] CachedIntrospectionResults:243 Found bean property 'properties' of type [java.util.Properties]
+2016-11-16 05:42:31,193 TRACE [main] CachedIntrospectionResults:243 Found bean property 'propertiesArray' of type [[Ljava.util.Properties;]
+2016-11-16 05:42:31,193 TRACE [main] CachedIntrospectionResults:243 Found bean property 'propertiesPersister' of type [org.springframework.util.PropertiesPersister]
+2016-11-16 05:42:31,193 TRACE [main] CachedIntrospectionResults:243 Found bean property 'searchSystemEnvironment' of type [boolean]
+2016-11-16 05:42:31,194 TRACE [main] CachedIntrospectionResults:243 Found bean property 'systemPropertiesMode' of type [int]
+2016-11-16 05:42:31,194 TRACE [main] CachedIntrospectionResults:243 Found bean property 'systemPropertiesModeName' of type [java.lang.String]
+2016-11-16 05:42:31,201 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'propertyConfigurer'
+2016-11-16 05:42:31,201 INFO  [main] PropertyPlaceholderConfigurer:178 Loading properties file from URL [file:/C:/Users/oola.ORADEV/workspace/eclipse/personalwork/studenthome-dao/target/classes/applicationDB.properties]
+2016-11-16 05:42:31,204 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.driver'
+2016-11-16 05:42:31,205 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.password'
+2016-11-16 05:42:31,205 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.host'
+2016-11-16 05:42:31,206 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.port'
+2016-11-16 05:42:31,206 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.sid'
+2016-11-16 05:42:31,206 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.username'
+2016-11-16 05:42:31,207 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.autocommit'
+2016-11-16 05:42:31,208 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:31,209 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:31,214 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:42:31,215 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]
+2016-11-16 05:42:31,217 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]
+2016-11-16 05:42:31,218 TRACE [main] CachedIntrospectionResults:243 Found bean property 'alwaysUseJndiLookup' of type [boolean]
+2016-11-16 05:42:31,218 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:31,218 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,219 TRACE [main] CachedIntrospectionResults:243 Found bean property 'destroyAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:31,219 TRACE [main] CachedIntrospectionResults:243 Found bean property 'fallbackToDefaultTypeMatch' of type [boolean]
+2016-11-16 05:42:31,219 TRACE [main] CachedIntrospectionResults:243 Found bean property 'initAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:31,220 TRACE [main] CachedIntrospectionResults:243 Found bean property 'jndiFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:31,220 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:31,221 TRACE [main] CachedIntrospectionResults:243 Found bean property 'resourceFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:31,221 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:31,222 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:31,222 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:31,223 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:42:31,224 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:31,227 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:31,227 TRACE [main] CachedIntrospectionResults:243 Found bean property 'autowiredAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:31,227 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:31,228 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,229 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:31,229 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredParameterName' of type [java.lang.String]
+2016-11-16 05:42:31,229 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredParameterValue' of type [boolean]
+2016-11-16 05:42:31,229 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:31,230 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:31,230 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:31,231 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:42:31,231 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:31,234 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:31,234 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,235 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:31,235 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:31,235 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:31,236 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:31,236 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:31,239 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,252 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-11-16 05:42:31,252 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2016-11-16 05:42:31,259 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2016-11-16 05:42:31,259 TRACE [main] CachedIntrospectionResults:243 Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2016-11-16 05:42:31,259 TRACE [main] CachedIntrospectionResults:243 Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2016-11-16 05:42:31,259 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2016-11-16 05:42:31,260 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:31,260 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,261 TRACE [main] CachedIntrospectionResults:243 Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2016-11-16 05:42:31,261 TRACE [main] CachedIntrospectionResults:243 Found bean property 'exposeProxy' of type [boolean]
+2016-11-16 05:42:31,261 TRACE [main] CachedIntrospectionResults:243 Found bean property 'frozen' of type [boolean]
+2016-11-16 05:42:31,262 TRACE [main] CachedIntrospectionResults:243 Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,262 TRACE [main] CachedIntrospectionResults:243 Found bean property 'opaque' of type [boolean]
+2016-11-16 05:42:31,263 TRACE [main] CachedIntrospectionResults:243 Found bean property 'optimize' of type [boolean]
+2016-11-16 05:42:31,263 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:31,263 TRACE [main] CachedIntrospectionResults:243 Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2016-11-16 05:42:31,263 TRACE [main] CachedIntrospectionResults:243 Found bean property 'proxyTargetClass' of type [boolean]
+2016-11-16 05:42:31,266 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:31,267 DEBUG [main] GenericApplicationContext:648 Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@26659db7]
+2016-11-16 05:42:31,270 DEBUG [main] GenericApplicationContext:672 Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3d3cdaa]
+2016-11-16 05:42:31,271 INFO  [main] DefaultListableBeanFactory:414 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21: defining beans [propertyConfigurer,datasource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,studentDao,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor]; root of factory hierarchy
+2016-11-16 05:42:31,271 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'propertyConfigurer'
+2016-11-16 05:42:31,272 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'datasource'
+2016-11-16 05:42:31,272 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'datasource'
+2016-11-16 05:42:31,279 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'datasource' to allow for resolving potential circular references
+2016-11-16 05:42:31,279 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.apache.commons.dbcp.datasources.SharedPoolDataSource]
+2016-11-16 05:42:31,283 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.apache.commons.dbcp.datasources.SharedPoolDataSource]
+2016-11-16 05:42:31,283 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,284 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connection' of type [java.sql.Connection]
+2016-11-16 05:42:31,284 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connectionPoolDataSource' of type [javax.sql.ConnectionPoolDataSource]
+2016-11-16 05:42:31,284 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSourceName' of type [java.lang.String]
+2016-11-16 05:42:31,284 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultAutoCommit' of type [boolean]
+2016-11-16 05:42:31,285 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultReadOnly' of type [boolean]
+2016-11-16 05:42:31,285 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultTransactionIsolation' of type [int]
+2016-11-16 05:42:31,285 TRACE [main] CachedIntrospectionResults:243 Found bean property 'description' of type [java.lang.String]
+2016-11-16 05:42:31,286 TRACE [main] CachedIntrospectionResults:243 Found bean property 'logWriter' of type [java.io.PrintWriter]
+2016-11-16 05:42:31,286 TRACE [main] CachedIntrospectionResults:243 Found bean property 'loginTimeout' of type [int]
+2016-11-16 05:42:31,286 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxActive' of type [int]
+2016-11-16 05:42:31,286 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxIdle' of type [int]
+2016-11-16 05:42:31,287 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxWait' of type [int]
+2016-11-16 05:42:31,287 TRACE [main] CachedIntrospectionResults:243 Found bean property 'minEvictableIdleTimeMillis' of type [int]
+2016-11-16 05:42:31,287 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numActive' of type [int]
+2016-11-16 05:42:31,289 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numIdle' of type [int]
+2016-11-16 05:42:31,289 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numTestsPerEvictionRun' of type [int]
+2016-11-16 05:42:31,289 TRACE [main] CachedIntrospectionResults:243 Found bean property 'reference' of type [javax.naming.Reference]
+2016-11-16 05:42:31,289 TRACE [main] CachedIntrospectionResults:243 Found bean property 'rollbackAfterValidation' of type [boolean]
+2016-11-16 05:42:31,289 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testOnBorrow' of type [boolean]
+2016-11-16 05:42:31,290 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testOnReturn' of type [boolean]
+2016-11-16 05:42:31,290 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testWhileIdle' of type [boolean]
+2016-11-16 05:42:31,290 TRACE [main] CachedIntrospectionResults:243 Found bean property 'timeBetweenEvictionRunsMillis' of type [int]
+2016-11-16 05:42:31,290 TRACE [main] CachedIntrospectionResults:243 Found bean property 'validationQuery' of type [java.lang.String]
+2016-11-16 05:42:31,291 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3'
+2016-11-16 05:42:31,304 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS]
+2016-11-16 05:42:31,308 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS]
+2016-11-16 05:42:31,308 TRACE [main] CachedIntrospectionResults:243 Found bean property 'accessToUnderlyingConnectionAllowed' of type [boolean]
+2016-11-16 05:42:31,309 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,309 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connectionProperties' of type [java.util.Properties]
+2016-11-16 05:42:31,309 TRACE [main] CachedIntrospectionResults:243 Found bean property 'description' of type [java.lang.String]
+2016-11-16 05:42:31,310 TRACE [main] CachedIntrospectionResults:243 Found bean property 'driver' of type [java.lang.String]
+2016-11-16 05:42:31,310 TRACE [main] CachedIntrospectionResults:243 Found bean property 'logWriter' of type [java.io.PrintWriter]
+2016-11-16 05:42:31,310 TRACE [main] CachedIntrospectionResults:243 Found bean property 'loginTimeout' of type [int]
+2016-11-16 05:42:31,311 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxActive' of type [int]
+2016-11-16 05:42:31,311 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxIdle' of type [int]
+2016-11-16 05:42:31,311 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxPreparedStatements' of type [int]
+2016-11-16 05:42:31,311 TRACE [main] CachedIntrospectionResults:243 Found bean property 'minEvictableIdleTimeMillis' of type [int]
+2016-11-16 05:42:31,312 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numTestsPerEvictionRun' of type [int]
+2016-11-16 05:42:31,312 TRACE [main] CachedIntrospectionResults:243 Found bean property 'password' of type [java.lang.String]
+2016-11-16 05:42:31,312 TRACE [main] CachedIntrospectionResults:243 Found bean property 'poolPreparedStatements' of type [boolean]
+2016-11-16 05:42:31,313 TRACE [main] CachedIntrospectionResults:243 Found bean property 'pooledConnection' of type [javax.sql.PooledConnection]
+2016-11-16 05:42:31,313 TRACE [main] CachedIntrospectionResults:243 Found bean property 'reference' of type [javax.naming.Reference]
+2016-11-16 05:42:31,313 TRACE [main] CachedIntrospectionResults:243 Found bean property 'timeBetweenEvictionRunsMillis' of type [int]
+2016-11-16 05:42:31,314 TRACE [main] CachedIntrospectionResults:243 Found bean property 'url' of type [java.lang.String]
+2016-11-16 05:42:31,314 TRACE [main] CachedIntrospectionResults:243 Found bean property 'user' of type [java.lang.String]
+2016-11-16 05:42:31,315 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,315 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,316 TRACE [main] InfrastructureAdvisorAutoProxyCreator:400 Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:42:31,317 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+2016-11-16 05:42:31,319 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:42:31,322 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:42:31,323 TRACE [main] CachedIntrospectionResults:243 Found bean property 'advice' of type [org.aopalliance.aop.Advice]
+2016-11-16 05:42:31,323 TRACE [main] CachedIntrospectionResults:243 Found bean property 'adviceBeanName' of type [java.lang.String]
+2016-11-16 05:42:31,323 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:31,324 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,324 TRACE [main] CachedIntrospectionResults:243 Found bean property 'classFilter' of type [org.springframework.aop.ClassFilter]
+2016-11-16 05:42:31,325 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:31,325 TRACE [main] CachedIntrospectionResults:243 Found bean property 'perInstance' of type [boolean]
+2016-11-16 05:42:31,325 TRACE [main] CachedIntrospectionResults:243 Found bean property 'pointcut' of type [org.springframework.aop.Pointcut]
+2016-11-16 05:42:31,326 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+2016-11-16 05:42:31,327 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:31,327 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:31,329 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,330 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+2016-11-16 05:42:31,330 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+2016-11-16 05:42:31,340 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+2016-11-16 05:42:31,341 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,344 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:31,345 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,349 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3'
+2016-11-16 05:42:31,366 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@6c3c9c31]
+2016-11-16 05:42:31,366 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@7f328c7a]
+2016-11-16 05:42:31,369 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@7f328c7a]
+2016-11-16 05:42:31,370 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@7f328c7a]
+2016-11-16 05:42:31,370 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@6c3c9c31]
+2016-11-16 05:42:31,372 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,374 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'datasource'
+2016-11-16 05:42:31,374 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'transactionManager'
+2016-11-16 05:42:31,374 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'transactionManager'
+2016-11-16 05:42:31,381 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2016-11-16 05:42:31,382 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+2016-11-16 05:42:31,386 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+2016-11-16 05:42:31,386 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,387 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:42:31,387 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultTimeout' of type [int]
+2016-11-16 05:42:31,388 TRACE [main] CachedIntrospectionResults:243 Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+2016-11-16 05:42:31,388 TRACE [main] CachedIntrospectionResults:243 Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+2016-11-16 05:42:31,388 TRACE [main] CachedIntrospectionResults:243 Found bean property 'nestedTransactionAllowed' of type [boolean]
+2016-11-16 05:42:31,389 TRACE [main] CachedIntrospectionResults:243 Found bean property 'resourceFactory' of type [java.lang.Object]
+2016-11-16 05:42:31,389 TRACE [main] CachedIntrospectionResults:243 Found bean property 'rollbackOnCommitFailure' of type [boolean]
+2016-11-16 05:42:31,390 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionSynchronization' of type [int]
+2016-11-16 05:42:31,390 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+2016-11-16 05:42:31,391 TRACE [main] CachedIntrospectionResults:243 Found bean property 'validateExistingTransaction' of type [boolean]
+2016-11-16 05:42:31,391 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'datasource'
+2016-11-16 05:42:31,393 DEBUG [main] DefaultListableBeanFactory:1367 Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2016-11-16 05:42:31,393 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,395 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'transactionManager'
+2016-11-16 05:42:31,395 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:31,396 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:31,396 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:31,396 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:31,398 TRACE [main] InfrastructureAdvisorAutoProxyCreator:400 Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:42:31,402 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+2016-11-16 05:42:31,403 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:42:31,408 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:42:31,410 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,410 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+2016-11-16 05:42:31,411 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSources' of type [[Lorg.springframework.transaction.interceptor.TransactionAttributeSource;]
+2016-11-16 05:42:31,411 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributes' of type [java.util.Properties]
+2016-11-16 05:42:31,412 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+2016-11-16 05:42:31,412 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'transactionManager'
+2016-11-16 05:42:31,413 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:31,413 DEBUG [main] DefaultListableBeanFactory:1367 Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:31,414 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:31,414 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,414 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'studentDao'
+2016-11-16 05:42:31,415 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'studentDao'
+2016-11-16 05:42:31,430 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport]
+2016-11-16 05:42:31,432 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport]
+2016-11-16 05:42:31,433 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,433 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:42:31,434 DEBUG [main] InjectionMetadata:76 Found injected method on class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]: AutowiredMethodElement for public void org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport.setDataSource(javax.sql.DataSource)
+2016-11-16 05:42:31,434 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'studentDao' to allow for resolving potential circular references
+2016-11-16 05:42:31,435 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]
+2016-11-16 05:42:31,438 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]
+2016-11-16 05:42:31,439 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,439 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:42:31,440 DEBUG [main] InjectionMetadata:115 Processing injected method of bean 'studentDao': AutowiredMethodElement for public void org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport.setDataSource(javax.sql.DataSource)
+2016-11-16 05:42:31,446 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'datasource'
+2016-11-16 05:42:31,446 DEBUG [main] AutowiredAnnotationBeanPostProcessor:365 Autowiring by type from bean name 'studentDao' to bean named 'datasource'
+2016-11-16 05:42:31,463 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,465 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'studentDao'
+2016-11-16 05:42:31,465 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:31,466 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:31,466 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:31,466 TRACE [main] GenericApplicationContext:272 Publishing event in context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:31 IST 2016]; root of context hierarchy]
+2016-11-16 05:42:31,468 DEBUG [main] InjectionMetadata:69 Found injected field on class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]: AutowiredFieldElement for private org.opola.apps.studenthome.dao.StudentDao org.opola.apps.studenthome.dao.tests.StudentDaoTests.studentDao
+2016-11-16 05:42:31,469 DEBUG [main] InjectionMetadata:103 Processing injected field of bean 'org.opola.apps.studenthome.dao.tests.StudentDaoTests': AutowiredFieldElement for private org.opola.apps.studenthome.dao.StudentDao org.opola.apps.studenthome.dao.tests.StudentDaoTests.studentDao
+2016-11-16 05:42:31,470 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'studentDao'
+2016-11-16 05:42:31,470 DEBUG [main] AutowiredAnnotationBeanPostProcessor:365 Autowiring by type from bean name 'org.opola.apps.studenthome.dao.tests.StudentDaoTests' to bean named 'studentDao'
+2016-11-16 05:42:31,471 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:31,474 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:31,475 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,475 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:31,483 TRACE [main] TestContextManager:286 beforeTestMethod(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab], method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()]
+2016-11-16 05:42:31,494 DEBUG [main] JdbcTemplate:436 Executing SQL query [select nextval(SH_STUDENT_ID_SEQ)]
+2016-11-16 05:42:31,501 DEBUG [main] DataSourceUtils:112 Fetching JDBC Connection from DataSource
+2016-11-16 05:42:31,707 DEBUG [main] DataSourceUtils:312 Returning JDBC Connection to DataSource
+2016-11-16 05:42:31,716 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,717 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,717 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,718 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,718 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,719 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,719 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,719 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,720 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:31,721 INFO  [main] XmlBeanDefinitionReader:323 Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2016-11-16 05:42:31,723 DEBUG [main] DefaultDocumentLoader:72 Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-11-16 05:42:31,724 TRACE [main] BeansDtdResolver:54 Trying to resolve XML entity with public ID [-//SPRING//DTD BEAN 2.0//EN] and system ID [http://www.springframework.org/dtd/spring-beans-2.0.dtd]
+2016-11-16 05:42:31,724 TRACE [main] BeansDtdResolver:64 Trying to locate [spring-beans-2.0.dtd] in Spring jar
+2016-11-16 05:42:31,725 DEBUG [main] BeansDtdResolver:72 Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2016-11-16 05:42:31,734 DEBUG [main] DefaultBeanDefinitionDocumentReader:86 Loading bean definitions
+2016-11-16 05:42:31,741 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'DB2'
+2016-11-16 05:42:31,742 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'DB2'
+2016-11-16 05:42:31,742 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2016-11-16 05:42:31,742 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.jdbc.support.SQLErrorCodes]
+2016-11-16 05:42:31,745 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.jdbc.support.SQLErrorCodes]
+2016-11-16 05:42:31,745 TRACE [main] CachedIntrospectionResults:243 Found bean property 'badSqlGrammarCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,746 TRACE [main] CachedIntrospectionResults:243 Found bean property 'cannotAcquireLockCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,746 TRACE [main] CachedIntrospectionResults:243 Found bean property 'cannotSerializeTransactionCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,746 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:31,746 TRACE [main] CachedIntrospectionResults:243 Found bean property 'customTranslations' of type [[Lorg.springframework.jdbc.support.CustomSQLErrorCodesTranslation;]
+2016-11-16 05:42:31,747 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataAccessResourceFailureCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,747 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataIntegrityViolationCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,747 TRACE [main] CachedIntrospectionResults:243 Found bean property 'databaseProductName' of type [java.lang.String]
+2016-11-16 05:42:31,748 TRACE [main] CachedIntrospectionResults:243 Found bean property 'databaseProductNames' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,748 TRACE [main] CachedIntrospectionResults:243 Found bean property 'deadlockLoserCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,748 TRACE [main] CachedIntrospectionResults:243 Found bean property 'invalidResultSetAccessCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,749 TRACE [main] CachedIntrospectionResults:243 Found bean property 'permissionDeniedCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,749 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transientDataAccessResourceCodes' of type [[Ljava.lang.String;]
+2016-11-16 05:42:31,750 TRACE [main] CachedIntrospectionResults:243 Found bean property 'useSqlStateForTranslation' of type [boolean]
+2016-11-16 05:42:31,750 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@55a7b0bf]
+2016-11-16 05:42:31,751 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@55a7b0bf]
+2016-11-16 05:42:31,751 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@55a7b0bf]
+2016-11-16 05:42:31,752 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@55a7b0bf]
+2016-11-16 05:42:31,752 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@55a7b0bf]
+2016-11-16 05:42:31,753 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'DB2'
+2016-11-16 05:42:31,753 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Derby'
+2016-11-16 05:42:31,753 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Derby'
+2016-11-16 05:42:31,753 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2016-11-16 05:42:31,754 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7444f787]
+2016-11-16 05:42:31,754 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5bd6fbb3]
+2016-11-16 05:42:31,754 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5bd6fbb3]
+2016-11-16 05:42:31,755 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5bd6fbb3]
+2016-11-16 05:42:31,755 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5bd6fbb3]
+2016-11-16 05:42:31,755 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5bd6fbb3]
+2016-11-16 05:42:31,756 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Derby'
+2016-11-16 05:42:31,756 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'H2'
+2016-11-16 05:42:31,756 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'H2'
+2016-11-16 05:42:31,757 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'H2' to allow for resolving potential circular references
+2016-11-16 05:42:31,757 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:42:31,757 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:42:31,758 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@7f26d3df]
+2016-11-16 05:42:31,758 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'H2'
+2016-11-16 05:42:31,758 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'HSQL'
+2016-11-16 05:42:31,759 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'HSQL'
+2016-11-16 05:42:31,759 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2016-11-16 05:42:31,759 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4e2016b0]
+2016-11-16 05:42:31,759 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4e2016b0]
+2016-11-16 05:42:31,763 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4e2016b0]
+2016-11-16 05:42:31,763 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'HSQL'
+2016-11-16 05:42:31,764 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Informix'
+2016-11-16 05:42:31,764 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Informix'
+2016-11-16 05:42:31,764 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2016-11-16 05:42:31,764 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4cc5aa00]
+2016-11-16 05:42:31,765 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@4cc5aa00]
+2016-11-16 05:42:31,765 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Informix'
+2016-11-16 05:42:31,765 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'MS-SQL'
+2016-11-16 05:42:31,766 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'MS-SQL'
+2016-11-16 05:42:31,766 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2016-11-16 05:42:31,766 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:42:31,766 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:42:31,767 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:42:31,767 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:42:31,767 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@451c0d60]
+2016-11-16 05:42:31,767 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'MS-SQL'
+2016-11-16 05:42:31,768 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'MySQL'
+2016-11-16 05:42:31,768 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'MySQL'
+2016-11-16 05:42:31,768 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2016-11-16 05:42:31,768 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:42:31,769 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:42:31,769 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:42:31,769 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:42:31,769 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@34b23d12]
+2016-11-16 05:42:31,770 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'MySQL'
+2016-11-16 05:42:31,770 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Oracle'
+2016-11-16 05:42:31,770 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Oracle'
+2016-11-16 05:42:31,770 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2016-11-16 05:42:31,771 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:42:31,771 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:42:31,771 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:42:31,772 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:42:31,772 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:42:31,772 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:42:31,773 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@21c783c5]
+2016-11-16 05:42:31,773 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Oracle'
+2016-11-16 05:42:31,773 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'PostgreSQL'
+2016-11-16 05:42:31,774 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'PostgreSQL'
+2016-11-16 05:42:31,774 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2016-11-16 05:42:31,774 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7bcd280b]
+2016-11-16 05:42:31,774 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:42:31,775 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:42:31,775 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:42:31,775 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:42:31,775 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:42:31,775 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@5a0029ac]
+2016-11-16 05:42:31,776 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'PostgreSQL'
+2016-11-16 05:42:31,776 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'Sybase'
+2016-11-16 05:42:31,776 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'Sybase'
+2016-11-16 05:42:31,776 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2016-11-16 05:42:31,777 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:42:31,777 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:42:31,777 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:42:31,777 TRACE [main] TypeConverterDelegate:347 Converting String to [class [Ljava.lang.String;] using property editor [org.springframework.beans.propertyeditors.StringArrayPropertyEditor@40b0095d]
+2016-11-16 05:42:31,778 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'Sybase'
+2016-11-16 05:42:31,778 INFO  [main] SQLErrorCodesFactory:128 SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2016-11-16 05:42:31,778 DEBUG [main] SQLErrorCodesFactory:201 Looking up default SQLErrorCodes for DataSource [org.apache.commons.dbcp.datasources.SharedPoolDataSource@6536d9d8]
+2016-11-16 05:42:31,779 DEBUG [main] DataSourceUtils:112 Fetching JDBC Connection from DataSource
+2016-11-16 05:42:31,784 DEBUG [main] DataSourceUtils:312 Returning JDBC Connection to DataSource
+2016-11-16 05:42:31,785 DEBUG [main] SQLErrorCodesFactory:220 Database product name cached for DataSource [org.apache.commons.dbcp.datasources.SharedPoolDataSource@6536d9d8]: name is 'PostgreSQL'
+2016-11-16 05:42:31,785 DEBUG [main] SQLErrorCodesFactory:177 SQL error codes for 'PostgreSQL' found
+2016-11-16 05:42:31,785 DEBUG [main] SQLErrorCodeSQLExceptionTranslator:266 Unable to translate SQLException with SQL state '42703', error code '0, will now try the fallback translator
+2016-11-16 05:42:31,786 DEBUG [main] SQLStateSQLExceptionTranslator:94 Extracted SQL state class '42' from value '42703'
+2016-11-16 05:42:31,790 DEBUG [main] SpringMethodRoadie:256 Test method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()] threw exception: org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [select nextval(SH_STUDENT_ID_SEQ)]; nested exception is org.postgresql.util.PSQLException: ERROR: column "sh_student_id_seq" does not exist
+  Position: 16
+2016-11-16 05:42:31,791 TRACE [main] TestContextManager:330 afterTestMethod(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab], method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()], exception [org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [select nextval(SH_STUDENT_ID_SEQ)]; nested exception is org.postgresql.util.PSQLException: ERROR: column "sh_student_id_seq" does not exist
+  Position: 16]
+2016-11-16 05:42:31,792 DEBUG [main] DirtiesContextTestExecutionListener:60 After test method: context [[TestContext@2dafae45 testClass = StudentDaoTests, locations = array<String>['classpath:dao-config.xml'], testInstance = org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab, testMethod = testDao@StudentDaoTests, testException = org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [select nextval(SH_STUDENT_ID_SEQ)]; nested exception is org.postgresql.util.PSQLException: ERROR: column "sh_student_id_seq" does not exist
+  Position: 16]], dirtiesContext [false].
+2016-11-16 05:42:31,794 INFO  [Thread-0] GenericApplicationContext:815 Closing org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:31 IST 2016]; root of context hierarchy
+2016-11-16 05:42:31,794 TRACE [Thread-0] GenericApplicationContext:272 Publishing event in context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:31 IST 2016]; root of context hierarchy]
+2016-11-16 05:42:31,794 INFO  [Thread-0] DefaultListableBeanFactory:421 Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21: defining beans [propertyConfigurer,datasource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,studentDao,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor]; root of factory hierarchy
+2016-11-16 05:42:31,795 DEBUG [Thread-0] DefaultListableBeanFactory:476 Retrieved dependent beans for bean 'studentDao': [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:31,795 DEBUG [Thread-0] DefaultListableBeanFactory:476 Retrieved dependent beans for bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3': [datasource]
+2016-11-16 05:42:55,990 DEBUG [main] SpringJUnit4ClassRunner:78 SpringJUnit4ClassRunner constructor called with [class org.opola.apps.studenthome.dao.tests.StudentDaoTests].
+2016-11-16 05:42:55,997 TRACE [main] TestContext:94 Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(locations=[classpath:dao-config.xml], loader=interface org.springframework.test.context.ContextLoader, inheritLocations=true)] for class [class org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:56,010 TRACE [main] TestContext:151 Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(locations=[classpath:dao-config.xml], loader=interface org.springframework.test.context.ContextLoader, inheritLocations=true)] for declaring class [class org.opola.apps.studenthome.dao.tests.TestBase]
+2016-11-16 05:42:56,016 INFO  [main] TestContextManager:167 @TestExecutionListeners is not present for class [class org.opola.apps.studenthome.dao.tests.StudentDaoTests]: using defaults.
+2016-11-16 05:42:56,029 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,031 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5975d6ab]
+2016-11-16 05:42:56,032 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.support.DirtiesContextTestExecutionListener@4760a26f]
+2016-11-16 05:42:56,032 TRACE [main] TestContextManager:124 Registering TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@19484a05]
+2016-11-16 05:42:56,042 DEBUG [main] SpringJUnit4ClassRunner:139 Invoking test method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()]
+2016-11-16 05:42:56,043 TRACE [main] TestContextManager:249 prepareTestInstance(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab]
+2016-11-16 05:42:56,045 DEBUG [main] DependencyInjectionTestExecutionListener:73 Performing dependency injection for test context [[TestContext@2dafae45 testClass = StudentDaoTests, locations = array<String>['classpath:dao-config.xml'], testInstance = org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab, testMethod = [null], testException = [null]]].
+2016-11-16 05:42:56,046 DEBUG [main] AbstractGenericContextLoader:75 Loading ApplicationContext for locations [classpath:dao-config.xml].
+2016-11-16 05:42:56,075 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,075 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,076 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,076 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,076 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,077 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,077 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,078 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,080 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,094 INFO  [main] XmlBeanDefinitionReader:323 Loading XML bean definitions from class path resource [dao-config.xml]
+2016-11-16 05:42:56,103 DEBUG [main] DefaultDocumentLoader:72 Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-11-16 05:42:56,121 TRACE [main] PluggableSchemaResolver:103 Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd]
+2016-11-16 05:42:56,121 DEBUG [main] PluggableSchemaResolver:125 Loading schema mappings from [META-INF/spring.schemas]
+2016-11-16 05:42:56,125 DEBUG [main] PluggableSchemaResolver:131 Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2016-11-16 05:42:56,126 DEBUG [main] PluggableSchemaResolver:114 Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2016-11-16 05:42:56,163 TRACE [main] PluggableSchemaResolver:103 Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-2.5.xsd]
+2016-11-16 05:42:56,164 DEBUG [main] PluggableSchemaResolver:114 Found XML schema [http://www.springframework.org/schema/tx/spring-tx-2.5.xsd] in classpath: org/springframework/transaction/config/spring-tx-2.5.xsd
+2016-11-16 05:42:56,173 DEBUG [main] DefaultBeanDefinitionDocumentReader:86 Loading bean definitions
+2016-11-16 05:42:56,193 DEBUG [main] BeanDefinitionParserDelegate:410 Neither XML 'id' nor 'name' specified - using generated bean name [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3]
+2016-11-16 05:42:56,195 DEBUG [main] DefaultNamespaceHandlerResolver:153 Loaded mappings [{http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}]
+2016-11-16 05:42:56,226 DEBUG [main] XmlBeanDefinitionReader:185 Loaded 8 bean definitions from location pattern [classpath:dao-config.xml]
+2016-11-16 05:42:56,234 INFO  [main] GenericApplicationContext:411 Refreshing org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:56 IST 2016]; root of context hierarchy
+2016-11-16 05:42:56,234 INFO  [main] GenericApplicationContext:426 Bean factory for application context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21
+2016-11-16 05:42:56,234 DEBUG [main] GenericApplicationContext:430 11 beans defined in org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:56 IST 2016]; root of context hierarchy
+2016-11-16 05:42:56,252 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'propertyConfigurer'
+2016-11-16 05:42:56,253 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'propertyConfigurer'
+2016-11-16 05:42:56,268 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+2016-11-16 05:42:56,273 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-11-16 05:42:56,278 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-11-16 05:42:56,278 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:56,280 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanName' of type [java.lang.String]
+2016-11-16 05:42:56,280 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,281 TRACE [main] CachedIntrospectionResults:243 Found bean property 'fileEncoding' of type [java.lang.String]
+2016-11-16 05:42:56,282 TRACE [main] CachedIntrospectionResults:243 Found bean property 'ignoreResourceNotFound' of type [boolean]
+2016-11-16 05:42:56,282 TRACE [main] CachedIntrospectionResults:243 Found bean property 'ignoreUnresolvablePlaceholders' of type [boolean]
+2016-11-16 05:42:56,283 TRACE [main] CachedIntrospectionResults:243 Found bean property 'localOverride' of type [boolean]
+2016-11-16 05:42:56,283 TRACE [main] CachedIntrospectionResults:243 Found bean property 'location' of type [org.springframework.core.io.Resource]
+2016-11-16 05:42:56,284 TRACE [main] CachedIntrospectionResults:243 Found bean property 'locations' of type [[Lorg.springframework.core.io.Resource;]
+2016-11-16 05:42:56,284 TRACE [main] CachedIntrospectionResults:243 Found bean property 'nullValue' of type [java.lang.String]
+2016-11-16 05:42:56,284 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:56,285 TRACE [main] CachedIntrospectionResults:243 Found bean property 'placeholderPrefix' of type [java.lang.String]
+2016-11-16 05:42:56,285 TRACE [main] CachedIntrospectionResults:243 Found bean property 'placeholderSuffix' of type [java.lang.String]
+2016-11-16 05:42:56,286 TRACE [main] CachedIntrospectionResults:243 Found bean property 'properties' of type [java.util.Properties]
+2016-11-16 05:42:56,286 TRACE [main] CachedIntrospectionResults:243 Found bean property 'propertiesArray' of type [[Ljava.util.Properties;]
+2016-11-16 05:42:56,286 TRACE [main] CachedIntrospectionResults:243 Found bean property 'propertiesPersister' of type [org.springframework.util.PropertiesPersister]
+2016-11-16 05:42:56,287 TRACE [main] CachedIntrospectionResults:243 Found bean property 'searchSystemEnvironment' of type [boolean]
+2016-11-16 05:42:56,287 TRACE [main] CachedIntrospectionResults:243 Found bean property 'systemPropertiesMode' of type [int]
+2016-11-16 05:42:56,288 TRACE [main] CachedIntrospectionResults:243 Found bean property 'systemPropertiesModeName' of type [java.lang.String]
+2016-11-16 05:42:56,293 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'propertyConfigurer'
+2016-11-16 05:42:56,293 INFO  [main] PropertyPlaceholderConfigurer:178 Loading properties file from URL [file:/C:/Users/oola.ORADEV/workspace/eclipse/personalwork/studenthome-dao/target/classes/applicationDB.properties]
+2016-11-16 05:42:56,296 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.driver'
+2016-11-16 05:42:56,296 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.password'
+2016-11-16 05:42:56,297 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.host'
+2016-11-16 05:42:56,297 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.port'
+2016-11-16 05:42:56,297 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.sid'
+2016-11-16 05:42:56,297 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.username'
+2016-11-16 05:42:56,298 TRACE [main] PropertyPlaceholderConfigurer:313 Resolved placeholder 'applicationDB.autocommit'
+2016-11-16 05:42:56,300 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:56,300 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:56,305 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:42:56,306 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]
+2016-11-16 05:42:56,309 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]
+2016-11-16 05:42:56,310 TRACE [main] CachedIntrospectionResults:243 Found bean property 'alwaysUseJndiLookup' of type [boolean]
+2016-11-16 05:42:56,310 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:56,310 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,310 TRACE [main] CachedIntrospectionResults:243 Found bean property 'destroyAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:56,311 TRACE [main] CachedIntrospectionResults:243 Found bean property 'fallbackToDefaultTypeMatch' of type [boolean]
+2016-11-16 05:42:56,311 TRACE [main] CachedIntrospectionResults:243 Found bean property 'initAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:56,312 TRACE [main] CachedIntrospectionResults:243 Found bean property 'jndiFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:56,312 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:56,313 TRACE [main] CachedIntrospectionResults:243 Found bean property 'resourceFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:56,313 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:56,313 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:56,314 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:56,315 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:42:56,316 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:56,318 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:56,319 TRACE [main] CachedIntrospectionResults:243 Found bean property 'autowiredAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:56,319 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:56,319 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,319 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:56,320 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredParameterName' of type [java.lang.String]
+2016-11-16 05:42:56,320 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredParameterValue' of type [boolean]
+2016-11-16 05:42:56,320 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:56,321 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:56,321 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:56,323 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-11-16 05:42:56,323 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:56,325 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]
+2016-11-16 05:42:56,325 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,325 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:56,326 TRACE [main] CachedIntrospectionResults:243 Found bean property 'requiredAnnotationType' of type [java.lang.Class]
+2016-11-16 05:42:56,326 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:56,327 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:56,327 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:56,330 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,340 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-11-16 05:42:56,340 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2016-11-16 05:42:56,345 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2016-11-16 05:42:56,346 TRACE [main] CachedIntrospectionResults:243 Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2016-11-16 05:42:56,346 TRACE [main] CachedIntrospectionResults:243 Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2016-11-16 05:42:56,346 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2016-11-16 05:42:56,346 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:56,347 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,347 TRACE [main] CachedIntrospectionResults:243 Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2016-11-16 05:42:56,347 TRACE [main] CachedIntrospectionResults:243 Found bean property 'exposeProxy' of type [boolean]
+2016-11-16 05:42:56,348 TRACE [main] CachedIntrospectionResults:243 Found bean property 'frozen' of type [boolean]
+2016-11-16 05:42:56,348 TRACE [main] CachedIntrospectionResults:243 Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2016-11-16 05:42:56,349 TRACE [main] CachedIntrospectionResults:243 Found bean property 'opaque' of type [boolean]
+2016-11-16 05:42:56,349 TRACE [main] CachedIntrospectionResults:243 Found bean property 'optimize' of type [boolean]
+2016-11-16 05:42:56,349 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:56,350 TRACE [main] CachedIntrospectionResults:243 Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2016-11-16 05:42:56,350 TRACE [main] CachedIntrospectionResults:243 Found bean property 'proxyTargetClass' of type [boolean]
+2016-11-16 05:42:56,353 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:56,354 DEBUG [main] GenericApplicationContext:648 Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@26659db7]
+2016-11-16 05:42:56,356 DEBUG [main] GenericApplicationContext:672 Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3d3cdaa]
+2016-11-16 05:42:56,357 INFO  [main] DefaultListableBeanFactory:414 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21: defining beans [propertyConfigurer,datasource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,studentDao,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor]; root of factory hierarchy
+2016-11-16 05:42:56,357 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'propertyConfigurer'
+2016-11-16 05:42:56,358 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'datasource'
+2016-11-16 05:42:56,358 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'datasource'
+2016-11-16 05:42:56,366 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'datasource' to allow for resolving potential circular references
+2016-11-16 05:42:56,366 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.apache.commons.dbcp.datasources.SharedPoolDataSource]
+2016-11-16 05:42:56,370 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.apache.commons.dbcp.datasources.SharedPoolDataSource]
+2016-11-16 05:42:56,370 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,370 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connection' of type [java.sql.Connection]
+2016-11-16 05:42:56,371 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connectionPoolDataSource' of type [javax.sql.ConnectionPoolDataSource]
+2016-11-16 05:42:56,371 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSourceName' of type [java.lang.String]
+2016-11-16 05:42:56,371 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultAutoCommit' of type [boolean]
+2016-11-16 05:42:56,371 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultReadOnly' of type [boolean]
+2016-11-16 05:42:56,372 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultTransactionIsolation' of type [int]
+2016-11-16 05:42:56,372 TRACE [main] CachedIntrospectionResults:243 Found bean property 'description' of type [java.lang.String]
+2016-11-16 05:42:56,372 TRACE [main] CachedIntrospectionResults:243 Found bean property 'logWriter' of type [java.io.PrintWriter]
+2016-11-16 05:42:56,372 TRACE [main] CachedIntrospectionResults:243 Found bean property 'loginTimeout' of type [int]
+2016-11-16 05:42:56,373 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxActive' of type [int]
+2016-11-16 05:42:56,373 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxIdle' of type [int]
+2016-11-16 05:42:56,374 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxWait' of type [int]
+2016-11-16 05:42:56,374 TRACE [main] CachedIntrospectionResults:243 Found bean property 'minEvictableIdleTimeMillis' of type [int]
+2016-11-16 05:42:56,374 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numActive' of type [int]
+2016-11-16 05:42:56,374 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numIdle' of type [int]
+2016-11-16 05:42:56,375 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numTestsPerEvictionRun' of type [int]
+2016-11-16 05:42:56,375 TRACE [main] CachedIntrospectionResults:243 Found bean property 'reference' of type [javax.naming.Reference]
+2016-11-16 05:42:56,375 TRACE [main] CachedIntrospectionResults:243 Found bean property 'rollbackAfterValidation' of type [boolean]
+2016-11-16 05:42:56,375 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testOnBorrow' of type [boolean]
+2016-11-16 05:42:56,376 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testOnReturn' of type [boolean]
+2016-11-16 05:42:56,376 TRACE [main] CachedIntrospectionResults:243 Found bean property 'testWhileIdle' of type [boolean]
+2016-11-16 05:42:56,376 TRACE [main] CachedIntrospectionResults:243 Found bean property 'timeBetweenEvictionRunsMillis' of type [int]
+2016-11-16 05:42:56,377 TRACE [main] CachedIntrospectionResults:243 Found bean property 'validationQuery' of type [java.lang.String]
+2016-11-16 05:42:56,377 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3'
+2016-11-16 05:42:56,390 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS]
+2016-11-16 05:42:56,393 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS]
+2016-11-16 05:42:56,394 TRACE [main] CachedIntrospectionResults:243 Found bean property 'accessToUnderlyingConnectionAllowed' of type [boolean]
+2016-11-16 05:42:56,394 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,395 TRACE [main] CachedIntrospectionResults:243 Found bean property 'connectionProperties' of type [java.util.Properties]
+2016-11-16 05:42:56,396 TRACE [main] CachedIntrospectionResults:243 Found bean property 'description' of type [java.lang.String]
+2016-11-16 05:42:56,396 TRACE [main] CachedIntrospectionResults:243 Found bean property 'driver' of type [java.lang.String]
+2016-11-16 05:42:56,397 TRACE [main] CachedIntrospectionResults:243 Found bean property 'logWriter' of type [java.io.PrintWriter]
+2016-11-16 05:42:56,397 TRACE [main] CachedIntrospectionResults:243 Found bean property 'loginTimeout' of type [int]
+2016-11-16 05:42:56,398 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxActive' of type [int]
+2016-11-16 05:42:56,398 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxIdle' of type [int]
+2016-11-16 05:42:56,399 TRACE [main] CachedIntrospectionResults:243 Found bean property 'maxPreparedStatements' of type [int]
+2016-11-16 05:42:56,399 TRACE [main] CachedIntrospectionResults:243 Found bean property 'minEvictableIdleTimeMillis' of type [int]
+2016-11-16 05:42:56,400 TRACE [main] CachedIntrospectionResults:243 Found bean property 'numTestsPerEvictionRun' of type [int]
+2016-11-16 05:42:56,400 TRACE [main] CachedIntrospectionResults:243 Found bean property 'password' of type [java.lang.String]
+2016-11-16 05:42:56,400 TRACE [main] CachedIntrospectionResults:243 Found bean property 'poolPreparedStatements' of type [boolean]
+2016-11-16 05:42:56,401 TRACE [main] CachedIntrospectionResults:243 Found bean property 'pooledConnection' of type [javax.sql.PooledConnection]
+2016-11-16 05:42:56,401 TRACE [main] CachedIntrospectionResults:243 Found bean property 'reference' of type [javax.naming.Reference]
+2016-11-16 05:42:56,402 TRACE [main] CachedIntrospectionResults:243 Found bean property 'timeBetweenEvictionRunsMillis' of type [int]
+2016-11-16 05:42:56,402 TRACE [main] CachedIntrospectionResults:243 Found bean property 'url' of type [java.lang.String]
+2016-11-16 05:42:56,402 TRACE [main] CachedIntrospectionResults:243 Found bean property 'user' of type [java.lang.String]
+2016-11-16 05:42:56,403 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,403 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,403 TRACE [main] InfrastructureAdvisorAutoProxyCreator:400 Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:42:56,406 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+2016-11-16 05:42:56,406 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:42:56,409 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2016-11-16 05:42:56,410 TRACE [main] CachedIntrospectionResults:243 Found bean property 'advice' of type [org.aopalliance.aop.Advice]
+2016-11-16 05:42:56,410 TRACE [main] CachedIntrospectionResults:243 Found bean property 'adviceBeanName' of type [java.lang.String]
+2016-11-16 05:42:56,410 TRACE [main] CachedIntrospectionResults:243 Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-11-16 05:42:56,410 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,411 TRACE [main] CachedIntrospectionResults:243 Found bean property 'classFilter' of type [org.springframework.aop.ClassFilter]
+2016-11-16 05:42:56,411 TRACE [main] CachedIntrospectionResults:243 Found bean property 'order' of type [int]
+2016-11-16 05:42:56,413 TRACE [main] CachedIntrospectionResults:243 Found bean property 'perInstance' of type [boolean]
+2016-11-16 05:42:56,413 TRACE [main] CachedIntrospectionResults:243 Found bean property 'pointcut' of type [org.springframework.aop.Pointcut]
+2016-11-16 05:42:56,414 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+2016-11-16 05:42:56,415 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:56,415 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:56,416 TRACE [main] CollectionFactory:195 Creating [java.util.concurrent.ConcurrentHashMap]
+2016-11-16 05:42:56,417 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+2016-11-16 05:42:56,418 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+2016-11-16 05:42:56,421 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+2016-11-16 05:42:56,421 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,424 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:56,425 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,430 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3'
+2016-11-16 05:42:56,442 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@6c3c9c31]
+2016-11-16 05:42:56,443 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@7f328c7a]
+2016-11-16 05:42:56,446 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@7f328c7a]
+2016-11-16 05:42:56,446 TRACE [main] TypeConverterDelegate:347 Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@7f328c7a]
+2016-11-16 05:42:56,447 TRACE [main] TypeConverterDelegate:347 Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@6c3c9c31]
+2016-11-16 05:42:56,449 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,451 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'datasource'
+2016-11-16 05:42:56,451 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'transactionManager'
+2016-11-16 05:42:56,451 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'transactionManager'
+2016-11-16 05:42:56,459 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2016-11-16 05:42:56,459 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+2016-11-16 05:42:56,464 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+2016-11-16 05:42:56,464 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,464 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:42:56,465 TRACE [main] CachedIntrospectionResults:243 Found bean property 'defaultTimeout' of type [int]
+2016-11-16 05:42:56,465 TRACE [main] CachedIntrospectionResults:243 Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+2016-11-16 05:42:56,465 TRACE [main] CachedIntrospectionResults:243 Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+2016-11-16 05:42:56,466 TRACE [main] CachedIntrospectionResults:243 Found bean property 'nestedTransactionAllowed' of type [boolean]
+2016-11-16 05:42:56,466 TRACE [main] CachedIntrospectionResults:243 Found bean property 'resourceFactory' of type [java.lang.Object]
+2016-11-16 05:42:56,467 TRACE [main] CachedIntrospectionResults:243 Found bean property 'rollbackOnCommitFailure' of type [boolean]
+2016-11-16 05:42:56,467 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionSynchronization' of type [int]
+2016-11-16 05:42:56,467 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+2016-11-16 05:42:56,468 TRACE [main] CachedIntrospectionResults:243 Found bean property 'validateExistingTransaction' of type [boolean]
+2016-11-16 05:42:56,468 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'datasource'
+2016-11-16 05:42:56,470 DEBUG [main] DefaultListableBeanFactory:1367 Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2016-11-16 05:42:56,470 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,472 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'transactionManager'
+2016-11-16 05:42:56,472 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-11-16 05:42:56,473 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:56,473 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:56,473 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:56,473 TRACE [main] InfrastructureAdvisorAutoProxyCreator:400 Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:42:56,475 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+2016-11-16 05:42:56,476 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:42:56,479 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2016-11-16 05:42:56,479 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,480 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+2016-11-16 05:42:56,480 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributeSources' of type [[Lorg.springframework.transaction.interceptor.TransactionAttributeSource;]
+2016-11-16 05:42:56,480 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionAttributes' of type [java.util.Properties]
+2016-11-16 05:42:56,480 TRACE [main] CachedIntrospectionResults:243 Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+2016-11-16 05:42:56,481 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'transactionManager'
+2016-11-16 05:42:56,481 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2016-11-16 05:42:56,481 DEBUG [main] DefaultListableBeanFactory:1367 Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:56,482 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2016-11-16 05:42:56,482 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,483 DEBUG [main] DefaultListableBeanFactory:214 Creating shared instance of singleton bean 'studentDao'
+2016-11-16 05:42:56,483 DEBUG [main] DefaultListableBeanFactory:383 Creating instance of bean 'studentDao'
+2016-11-16 05:42:56,490 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport]
+2016-11-16 05:42:56,504 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport]
+2016-11-16 05:42:56,504 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,505 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:42:56,506 DEBUG [main] InjectionMetadata:76 Found injected method on class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]: AutowiredMethodElement for public void org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport.setDataSource(javax.sql.DataSource)
+2016-11-16 05:42:56,506 DEBUG [main] DefaultListableBeanFactory:459 Eagerly caching bean 'studentDao' to allow for resolving potential circular references
+2016-11-16 05:42:56,506 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]
+2016-11-16 05:42:56,509 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.implementation.StudentDaoImpl]
+2016-11-16 05:42:56,510 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,510 TRACE [main] CachedIntrospectionResults:243 Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-11-16 05:42:56,510 DEBUG [main] InjectionMetadata:115 Processing injected method of bean 'studentDao': AutowiredMethodElement for public void org.opola.apps.studenthome.dao.jdbc.SpringJdbcTemplateSupport.setDataSource(javax.sql.DataSource)
+2016-11-16 05:42:56,514 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'datasource'
+2016-11-16 05:42:56,515 DEBUG [main] AutowiredAnnotationBeanPostProcessor:365 Autowiring by type from bean name 'studentDao' to bean named 'datasource'
+2016-11-16 05:42:56,525 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,527 DEBUG [main] DefaultListableBeanFactory:411 Finished creating instance of bean 'studentDao'
+2016-11-16 05:42:56,527 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-11-16 05:42:56,527 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-11-16 05:42:56,527 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-11-16 05:42:56,528 TRACE [main] GenericApplicationContext:272 Publishing event in context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:56 IST 2016]; root of context hierarchy]
+2016-11-16 05:42:56,529 DEBUG [main] InjectionMetadata:69 Found injected field on class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]: AutowiredFieldElement for private org.opola.apps.studenthome.dao.StudentDao org.opola.apps.studenthome.dao.tests.StudentDaoTests.studentDao
+2016-11-16 05:42:56,529 DEBUG [main] InjectionMetadata:103 Processing injected field of bean 'org.opola.apps.studenthome.dao.tests.StudentDaoTests': AutowiredFieldElement for private org.opola.apps.studenthome.dao.StudentDao org.opola.apps.studenthome.dao.tests.StudentDaoTests.studentDao
+2016-11-16 05:42:56,530 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'studentDao'
+2016-11-16 05:42:56,530 DEBUG [main] AutowiredAnnotationBeanPostProcessor:365 Autowiring by type from bean name 'org.opola.apps.studenthome.dao.tests.StudentDaoTests' to bean named 'studentDao'
+2016-11-16 05:42:56,530 TRACE [main] CachedIntrospectionResults:218 Getting BeanInfo for class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:56,533 TRACE [main] CachedIntrospectionResults:234 Caching PropertyDescriptors for class [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:56,534 TRACE [main] CachedIntrospectionResults:243 Found bean property 'class' of type [java.lang.Class]
+2016-11-16 05:42:56,534 DEBUG [main] DefaultListableBeanFactory:214 Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2016-11-16 05:42:56,538 TRACE [main] TestContextManager:286 beforeTestMethod(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab], method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()]
+2016-11-16 05:42:56,543 DEBUG [main] JdbcTemplate:436 Executing SQL query [select nextval('SH_STUDENT_ID_SEQ')]
+2016-11-16 05:42:56,551 DEBUG [main] DataSourceUtils:112 Fetching JDBC Connection from DataSource
+2016-11-16 05:42:56,789 DEBUG [main] DataSourceUtils:312 Returning JDBC Connection to DataSource
+2016-11-16 05:42:56,797 DEBUG [main] JdbcTemplate:790 Executing prepared SQL update
+2016-11-16 05:42:56,798 DEBUG [main] JdbcTemplate:574 Executing prepared SQL statement [INSERT INTO SH_STUDENT_INFO (ID, NAME) VALUES (?, ?)]
+2016-11-16 05:42:56,798 DEBUG [main] DataSourceUtils:112 Fetching JDBC Connection from DataSource
+2016-11-16 05:42:56,805 TRACE [main] StatementCreatorUtils:207 Setting SQL statement parameter value: column index 1, parameter value [100], value class [java.lang.Long], SQL type unknown
+2016-11-16 05:42:56,806 TRACE [main] StatementCreatorUtils:207 Setting SQL statement parameter value: column index 2, parameter value [First-Student], value class [java.lang.String], SQL type unknown
+2016-11-16 05:42:56,810 DEBUG [main] JdbcTemplate:800 SQL update affected 1 rows
+2016-11-16 05:42:56,811 DEBUG [main] DataSourceUtils:312 Returning JDBC Connection to DataSource
+2016-11-16 05:42:56,815 DEBUG [main] JdbcTemplate:639 Executing prepared SQL query
+2016-11-16 05:42:56,816 DEBUG [main] JdbcTemplate:574 Executing prepared SQL statement [SELECT ID, NAME FROM SH_STUDENT_INFO WHERE ID > ?]
+2016-11-16 05:42:56,816 DEBUG [main] DataSourceUtils:112 Fetching JDBC Connection from DataSource
+2016-11-16 05:42:56,816 TRACE [main] StatementCreatorUtils:207 Setting SQL statement parameter value: column index 1, parameter value [0], value class [java.lang.Long], SQL type unknown
+2016-11-16 05:42:56,817 DEBUG [main] StudentDaoImpl:49 StudentId: 100, Student Name: First-Student
+2016-11-16 05:42:56,818 DEBUG [main] DataSourceUtils:312 Returning JDBC Connection to DataSource
+2016-11-16 05:42:56,820 DEBUG [main] StudentDaoTests:34 Fetched Student Information: Id = 100, Name = First-Student
+2016-11-16 05:42:56,821 DEBUG [main] SpringMethodRoadie:256 Test method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()] threw exception: null
+2016-11-16 05:42:56,821 TRACE [main] TestContextManager:330 afterTestMethod(): instance [org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab], method [public void org.opola.apps.studenthome.dao.tests.StudentDaoTests.testDao()], exception [null]
+2016-11-16 05:42:56,822 DEBUG [main] DirtiesContextTestExecutionListener:60 After test method: context [[TestContext@2dafae45 testClass = StudentDaoTests, locations = array<String>['classpath:dao-config.xml'], testInstance = org.opola.apps.studenthome.dao.tests.StudentDaoTests@105e55ab, testMethod = testDao@StudentDaoTests, testException = [null]]], dirtiesContext [false].
+2016-11-16 05:42:56,824 INFO  [Thread-0] GenericApplicationContext:815 Closing org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:56 IST 2016]; root of context hierarchy
+2016-11-16 05:42:56,824 TRACE [Thread-0] GenericApplicationContext:272 Publishing event in context [org.springframework.context.support.GenericApplicationContext@e60e128]: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@e60e128: display name [org.springframework.context.support.GenericApplicationContext@e60e128]; startup date [Wed Nov 16 05:42:56 IST 2016]; root of context hierarchy]
+2016-11-16 05:42:56,825 INFO  [Thread-0] DefaultListableBeanFactory:421 Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6659fb21: defining beans [propertyConfigurer,datasource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,studentDao,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor]; root of factory hierarchy
+2016-11-16 05:42:56,825 DEBUG [Thread-0] DefaultListableBeanFactory:476 Retrieved dependent beans for bean 'studentDao': [org.opola.apps.studenthome.dao.tests.StudentDaoTests]
+2016-11-16 05:42:56,826 DEBUG [Thread-0] DefaultListableBeanFactory:476 Retrieved dependent beans for bean 'org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS#10d09ad3': [datasource]
